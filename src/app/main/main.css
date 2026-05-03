@@ -1,0 +1,39 @@
+.pics img {
+  width: 100%;
+  max-width: 300px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.descrip {
+  width: 100%;
+  max-width: 400px;
+  color: rgb(52, 64, 75);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#hobby {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: start;
+  background-color: rgb(246, 247, 249);
+}
+
+.make {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 30px;
+  background-color: rgb(229, 233, 241);
+  max-width: 400px;
+  padding: 15px;
+}
+
+.make h2 {
+  color: rgb(52, 64, 75);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
