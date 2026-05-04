@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import { Exper } from '../exper/exper';
+import { Links } from '../links/links';
 
 @Component({
   selector: 'app-resume',
-  imports: [],
+  imports: [Exper,Links],
   templateUrl: './resume.html',
   styleUrl: './resume.css',
 })

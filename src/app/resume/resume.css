@@ -1,14 +1,14 @@
 .resume {
-  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: 20px;
   display: grid;
-  grid-template-columns: 1fr 500px;
-  gap: 20vh;
+  grid-template-columns: 1fr 0.5fr;
+  gap: 20px;
   align-items: center;
 }
 
 .picG img {
-  width: 400px;
+  width: 80%;
   border-radius: 10px;
 }
 
@@ -22,8 +22,8 @@
 h2 {
   color: rgb(52, 64, 75);
   text-align: center;
-}
 
+}
 p {
   color: rgb(52, 64, 75);
   width: 100%;

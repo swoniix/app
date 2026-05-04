@@ -1,0 +1,12 @@
+p{
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(52, 64, 75);
+}
+a{
+    color:rgb(128, 121, 182);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(60, 76, 90)
+}
