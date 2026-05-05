@@ -5,6 +5,7 @@
   flex-direction: column;
   text-align: start;
   gap: 20px;
+  padding: 10px;
   /* align-items: center; */
 }
 
@@ -16,7 +17,8 @@
 
 .picG img {
   width: 250px;
-  border-radius: 10px;
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px rgb(0, 0, 0);
 }
 
 .card {

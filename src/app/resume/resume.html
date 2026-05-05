@@ -1,4 +1,4 @@
-<div class="resume" [class.highlight]="flag">
+<div class="resume" [ngClass]="{highlight:flag}">
   <div class="top">
     <div class="card">
       <h2>{{fullname}}</h2>
@@ -8,7 +8,9 @@
       <p><b>About me:</b> {{ aboutMe }}</p>
     </div>
     <div class="picG">
-      <img src="gumball.jpg" alt="">
+      <img src="gumball.jpg" [ngStyle]="{
+        'border-radius': '10px',
+        'box-shadow': flag ? '0 0 20px rgba(255,255,255,0.5)' : 'none'}">
     </div>
   </div>
   <app-exper [flag]="flag"></app-exper>

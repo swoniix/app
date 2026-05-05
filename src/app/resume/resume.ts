@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Exper } from '../exper/exper';
 import { Links } from '../links/links';
+import { NgClass, NgStyle } from '@angular/common';
 
 @Component({
   selector: 'app-resume',
-  imports: [Exper, Links],
+  imports: [Exper, Links, NgClass, NgStyle],
   templateUrl: './resume.html',
   styleUrl: './resume.css',
 })
