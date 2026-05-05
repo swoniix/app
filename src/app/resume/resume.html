@@ -1,12 +1,20 @@
-<div class="resume">
-  <div class="card">
-    <h2>{{fullname}}</h2>
-    <p><b>Phone:</b> {{ phone }}</p>
-    <p><b>City:</b> {{ city }}</p>
-    <p><b>Email:</b> {{ email }}</p>
-    <p><b>About me:</b> {{ aboutMe }}</p>
+<div class="resume" [class.highlight]="flag">
+  <div class="top">
+    <div class="card">
+      <h2>{{fullname}}</h2>
+      <p><b>Phone:</b> {{ phone }}</p>
+      <p><b>City:</b> {{ city }}</p>
+      <p><b>Email:</b> {{ email }}</p>
+      <p><b>About me:</b> {{ aboutMe }}</p>
+    </div>
+    <div class="picG">
+      <img src="gumball.jpg" alt="">
+    </div>
   </div>
-  <div class="picG">
-    <img src="gumball.jpg" alt="">
+  <app-exper [flag]="flag"></app-exper>
+  <app-links></app-links>
+  <div id="but">
+    <button (click)="flag = !flag">Change</button>
   </div>
+
 </div>

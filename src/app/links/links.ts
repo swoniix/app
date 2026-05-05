@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './links.css',
 })
 export class Links {
-  link = "GitHub Link!"
+  link = 'https://github.com/swoniix'
+  imgUrl = '25231.png'
 }
